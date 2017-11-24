@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="analyst.AnalystController">
+   <children>
+      <Label layoutX="209.0" layoutY="28.0" prefHeight="51.0" prefWidth="183.0" text="智能情感强度分析系统" textFill="#340bc9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="content" layoutX="74.0" layoutY="79.0" onKeyPressed="#fx_content" prefHeight="264.0" prefWidth="453.0" />
+   </children>
+</Pane>
